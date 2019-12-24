@@ -23,10 +23,6 @@ git clone https://github.com/jmuddappa/decades_end
 
 2. Run the jupyter notebooks.
 
-```
-cd art-gan-erator
-sh setup.sh
-```
 
 3. WIP - add steps for deployment of web-app
 
