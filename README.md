@@ -9,7 +9,8 @@ So far the project contains 3 Jupyter notebooks:
 1. Data Collection 
   - **Data Scraping and cleaning** : Scraped the titles from 35 "best movies of the decade" websites using a variety of techniques. Cleaned 1500+ data points using python and excel functions.
 2. Data Cleaning 
-- **Fuzzy de-duplication** : Found movie titles which are almost the same and made them identical. Eg: "Mad Max: Fury Road" and "Mad Max - Fury Road" should have the same title. Features entity resolution and shingling to fix this.
+- **Fuzzy de-duplication** : Found movie titles which are almost the same and made them identical. Eg: "Mad Max: Fury Road" and "Mad Max - Fury Road" should have the same title. Features entity resolution and shingling to fix this. Eventually, I discovered even more titles that needed entity resoltion and so I leveraged a package dedupe to automate this process. Once I ran de-dupe the fuzzy de-duplication was completed!
+
 3. Feature engineering
 - **API Usage** : I used the IMDbPy package to gather meta-data about the collected movies including but not limited to the cast, directors, cinematographers, writers, genre of the movies. 
 - **Custom features** : 
@@ -39,6 +40,14 @@ git clone https://github.com/jmuddappa/decades_end
 
 
 3. WIP - add steps for deployment of web-app
+
+## Future Work Possibilities
+
+1. Automating the web scraping or creating more robust functions to do that 
+
+2. Writing generalizable code to create top 10 lists on Buzzfeed effortlessly
+
+3. Deploying a recommender system that utilizes k-means to suggest similar movies to a user.
 
 ## Credits
 
