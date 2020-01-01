@@ -13,8 +13,11 @@ So far the project contains 3 Jupyter notebooks:
 3. Feature engineering
 - **API Usage** : I used the IMDbPy package to gather meta-data about the collected movies including but not limited to the cast, directors, cinematographers, writers, genre of the movies. 
 - **Custom features** : 
+
 a. I developed a scoring feature that would weight movies based on the length of the list that they are found in as well as the rank that they received in those lists! 
+
 b. I wrote a function that can pull data about actors, writers, cinemetographers, directors, editors, composers to get the top artists of the decade. I'm still working on finding the optimal formula for obtaining the most representative list!
+
 c. I wrote functions to do keyword detection using TF-IDF to find the most important words found in the plots of movies.
 
 ## Dependencies
