@@ -1,11 +1,12 @@
 ![](https://i.imgur.com/AUeIH2y.png)
 
 # Decade's End
-An end-to-end data science project currently in development. My project aims to collect data, examine the data and then finally build and deploy a recommender system. 
+An end-to-end data science project that involves scraping, cleaning, creation of databases and data analysis to find the top 10 movies of the decade. 
 
+An article I wrote about the project was featured on Analytics Vidhya: https://medium.com/analytics-vidhya/the-top-movies-of-the-decade-according-to-the-internet-f6be0357c7fb
 
 ## Contents
-So far the project contains 3 Jupyter notebooks:
+The project contains 3 Jupyter notebooks:
 1. Data Collection 
   - **Data Scraping and cleaning** : Scraped the titles from 35 "best movies of the decade" websites using a variety of techniques. Cleaned 1500+ data points using python and excel functions.
 2. Data Cleaning 
@@ -36,10 +37,34 @@ So far the project contains 3 Jupyter notebooks:
 git clone https://github.com/jmuddappa/decades_end
 ```
 
-2. Run the jupyter notebooks.
+2. Run the jupyter notebooks. If any dependencies are found missing, just create a new cell and !pip install the dependency.
 
+## Results
 
-3. WIP - add steps for deployment of web-app
+The top 20 list I found was: 
+
+1. Mad Max: Fury Road
+2. Moonlight
+3. Get Out
+4. The Social Network
+5. Lady Bird
+6. Inside Llewyn Davis
+7. Boyhood
+8. The Grand Budapest Hotel
+9. The Master
+10. The Tree of Life
+11. Roma
+12. The Act of Killing
+13. Parasite
+14. Inception
+15. Call Me By Your Name
+16. Spider-Man: Into The Spider-Verse
+17. Under the Skin
+18. Phantom Thread
+19. Whiplash
+20. Arrival
+
+After my article was posted, Empire (a highly respected film magazine) published their top movies of the century here: https://www.empireonline.com/movies/features/best-movies-century/. Mad Max topped this list too. Pretty good validation huh? 
 
 ## Future Work Possibilities
 
